@@ -5,19 +5,24 @@
     box-sizing: border-box;
 }
 
-h1, h3, p {
+h2, p {
     margin: 15px;
 }
 
 .wrapper {
-    width: 85%;
+    width: 78%;
     background-color: #edf2f8;
     margin: auto;
 }
 
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 0.8125rem;
+    /* font-size: 0.8125rem; */
+    font-size: 13px;
+}
+
+p {
+    line-height: 1.5;
 }
 
 .card {
@@ -32,7 +37,7 @@ body {
 }
 
 .card div img {
-    margin: 0 20px;
+    margin: 0 10px;
     border-radius: 50%;
     width: 50px;
     border: 1px solid hsl(263, 55%, 52%);
@@ -42,12 +47,12 @@ body {
     float: left;
 }
 
-.card .description, .card h3{
+.card .description, .card h2{
     clear: left;
 }
 
-.card h3{
-    padding-top: 15px;
+.card h2{
+    padding-top: 5px;
 }
 
 .card1 , .card2, .card4 {
@@ -81,6 +86,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     color: hsl(219, 29%, 14%);
 }
+
 
 @media screen and (min-width: 600px) {
     .wrapper {
