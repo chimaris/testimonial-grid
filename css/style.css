@@ -48,7 +48,7 @@ p {
 }
 
 .card .description, .card h2{
-    clear: left;
+    clear: both;
 }
 
 .card h2{
